@@ -5,7 +5,7 @@
 
 	<groupId>com.sitture</groupId>
 	<artifactId>fitnesse-quickstart</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>fitnesse-quickstart-archetype</name>
