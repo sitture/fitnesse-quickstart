@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.sitture</groupId>
 	<artifactId>fitnesse-quickstart</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>fitnesse-quickstart-archetype</name>
@@ -52,8 +51,9 @@
 	<scm>
 		<connection>scm:git:git://github.com/sitture/fitnesse-quickstart.git</connection>
 		<url>https://github.com/sitture/fitnesse-quickstart</url>
-		<developerConnection>scm:git:git://github.com/sitture/fitnesse-quickstart.git</developerConnection>
-	</scm>
+		<developerConnection>scm:git:https://github.com/sitture/fitnesse-quickstart.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
 
 	<build>
 		<extensions>
