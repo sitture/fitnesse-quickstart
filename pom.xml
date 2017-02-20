@@ -8,6 +8,8 @@
   <packaging>maven-archetype</packaging>
 
   <name>fitnesse-quickstart-archetype</name>
+  <description>An archetype that can be used to generate a Maven based FitNesse project.</description>
+  <url>https://github.com/sitture/fitnesse-quickstart</url>
 
   <build>
     <extensions>
