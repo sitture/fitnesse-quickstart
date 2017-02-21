@@ -1,7 +1,7 @@
 # fitnesse-quickstart
 An archetype that can be used to generate a Maven based FitNesse project.
 
-[![Build Status](https://travis-ci.org/sitture/fitnesse-quickstart.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/fitnesse-quickstart) [![Maven Central](https://img.shields.io/maven-central/v/com.sitture/fitnesse-quickstart.svg?maxAge=300&style=flat-square)](http://search.maven.org/#search|ga|1|g:"com.sitture")  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000&style=flat-square)](https://raw.githubusercontent.com/sitture/fitnesse-quickstart/master/LICENSE)
+[![Build Status](https://travis-ci.org/sitture/fitnesse-quickstart.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/fitnesse-quickstart) [![Maven Central](https://img.shields.io/maven-central/v/com.sitture/fitnesse-quickstart.svg?maxAge=300&style=flat-square)](http://search.maven.org/#search|ga|1|g:"com.sitture")  [![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg?maxAge=2592000&style=flat-square)](https://raw.githubusercontent.com/sitture/fitnesse-quickstart/master/LICENSE)
 
 # Usage
 
