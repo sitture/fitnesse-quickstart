@@ -4,7 +4,7 @@
 
 	<groupId>com.sitture</groupId>
 	<artifactId>fitnesse-quickstart</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>fitnesse-quickstart-archetype</name>
@@ -17,7 +17,7 @@
         <java.version>1.7</java.version>
 		<versions.archetype>3.0.0</versions.archetype>
         <maven-compiler-plugin.version>[3.6,)</maven-compiler-plugin.version>
-        <nexus-staging-maven-plugin.version>[1.6,)</nexus-staging-maven-plugin.version>
+        <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
