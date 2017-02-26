@@ -1,7 +1,16 @@
 language: java
 jdk:
-- oraclejdk7
 - oraclejdk8
 notifications:
   email:
-  - haroon_sheikh@hotmail.co.uk
+  - haroon_sheikh@hotmail.co.
+before_script:
+ - export DISPLAY=:99.0
+ - sh -e /etc/init.d/xvfb start
+ - sleep 3
+ after_success:
+  "[ ! -z "$TRAVIS_TAG" ] && mvn -Prelease deploy -DskipTests --settings settings.xml"
+ env:
+   global:
+   - secure: OwbijiQml5DG28Npu+V5JO6L2g+0lW8QFY4H6qGuobHF8gkoNYFRhZaG5aPTE9OBkYcxzD5hvQ1cqgift/W87+g8qCtJFSkw7/6u2D05uBAp1jHbdHyJcEYeGk/U/3bpOlj9ZRwqb+GusoPzmJwoE+Uu2+htEd5/eSkXs+4LKW6R0OyIcYiLZJ8cjStcKAWmwELNqCldKDuLqEnzadS/D9C5nyGIorAdKFG/2MacfWvel0hFEwaGlxCUykIUv0HH2Sn295MSy2cBH3KJvOLrx95ls0DTBN6wnY9lXn7Y9NeKWZ3xmGQyHk4LNVzWE7z+X2GNLHTdwj5HCHYLT/SAGKE8wnDvdZwraeRzeGRjoTHQJhmux6T5ydtiheUSHggZT2OExK+JFqXbrLBCC8RWNbnVq8oYOvQ1sTOa9GIH4D1kFExZkO59A1AU3lJoSvpoJUItm3W3cfGnFuIS+r+RHoj1dsWtCM1w+aO1EDglTydnLyGhclOrZwJmXjXgLapds+cOekTeqRnAYmdGnve6UXqXCnGOAQij6NekDaYNLczAbNWsYs3ieEfEnNL5e88sKGQg4BQcFJl063T+46oBeoF8ll0qjfASErwlL0cI0cQU4AmWGalC0ApXUF0+sIhxAp1NZroM6bKgYfBsCA8fzrsJ6hvHyp4xEXu2w6F6Pvk=
+   - secure: ifDUCSTPDoq864zZnqWamAVgHeSap464b33oiVXT6kK9fQgiFANch9qnta8GHMZaDxbQwyEgi+uJ4GB9dYaxiAWEH4msZweCOwj8uZVAUIPQBWZwNQ/UCJzKoMHunELkme8fJ78luN57HzS6qobpte89U0lbtFi8hrElp0MGmT2YTXyjv/sJJM0m1mIP2j5Fs+l1aeebmgJq49hdJJDQgb54/SeLuhOdNzd+d7n8xxy/49YGPR9Zlfw62lP6FG0x4qYCfEKFQHDO2pCFP9rwEP56JM2215X0mGwVXo5ezJ9DuX8+lxX3A6wxxBX0SBIwamcywH/D44C3AcP/oKVCiAjYNBaqJlRCYkcVVyYhX0QAwZXvtPYzZcUVFAK8W6NKz7yTVkyxYVUqksDQ8wbZV5SMSL9fLShfcQPPrPsPIrLcKPIaS/U6S2oWluHaoMW8Rt5mDtDEVLP2CnRqT+TzfLmN4NwhDdpNrwBRKWCTLxSNeJMXxgAEGmAIr05glZXsy1GiG93XukI6MRn+qvPwuEZDQiUuU4q8QLUC/2GQ9aDQEkLIV/2K7w2hGiJmLl2OJGMjpH1P9QfHvCZGcLCU8gjaA3XGJtjDCHZR6Y3VC84XISEiV4ndeEj2h29ESMfmGgj6ZabZfXyFibfI92qJ6E55mqWA9K0MPWtiH/U08FM=
