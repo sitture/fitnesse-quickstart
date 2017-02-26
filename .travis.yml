@@ -9,7 +9,7 @@ before_script:
  - sh -e /etc/init.d/xvfb start
  - sleep 3
 after_success:
- - "[ ! -z "$TRAVIS_TAG" ] && mvn -Prelease deploy -DskipTests --settings settings.xml"
+ -- "[ ! -z "$TRAVIS_TAG" ] && mvn -Prelease deploy -DskipTests --settings settings.xml"
 env:
   global:
   - secure: OwbijiQml5DG28Npu+V5JO6L2g+0lW8QFY4H6qGuobHF8gkoNYFRhZaG5aPTE9OBkYcxzD5hvQ1cqgift/W87+g8qCtJFSkw7/6u2D05uBAp1jHbdHyJcEYeGk/U/3bpOlj9ZRwqb+GusoPzmJwoE+Uu2+htEd5/eSkXs+4LKW6R0OyIcYiLZJ8cjStcKAWmwELNqCldKDuLqEnzadS/D9C5nyGIorAdKFG/2MacfWvel0hFEwaGlxCUykIUv0HH2Sn295MSy2cBH3KJvOLrx95ls0DTBN6wnY9lXn7Y9NeKWZ3xmGQyHk4LNVzWE7z+X2GNLHTdwj5HCHYLT/SAGKE8wnDvdZwraeRzeGRjoTHQJhmux6T5ydtiheUSHggZT2OExK+JFqXbrLBCC8RWNbnVq8oYOvQ1sTOa9GIH4D1kFExZkO59A1AU3lJoSvpoJUItm3W3cfGnFuIS+r+RHoj1dsWtCM1w+aO1EDglTydnLyGhclOrZwJmXjXgLapds+cOekTeqRnAYmdGnve6UXqXCnGOAQij6NekDaYNLczAbNWsYs3ieEfEnNL5e88sKGQg4BQcFJl063T+46oBeoF8ll0qjfASErwlL0cI0cQU4AmWGalC0ApXUF0+sIhxAp1NZroM6bKgYfBsCA8fzrsJ6hvHyp4xEXu2w6F6Pvk=
