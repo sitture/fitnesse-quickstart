@@ -20,7 +20,7 @@
 		<versions.maven-compiler-plugin>[3.6,)</versions.maven-compiler-plugin>
 		<versions.fitnesse-git-plugin>1.1.1</versions.fitnesse-git-plugin>
 		<versions.maven.exec>1.6.0</versions.maven.exec>
-		<versions.maven-assembly>3.0.0</versions.maven-assembly>
+		<versions.maven-assembly>3.1.0</versions.maven-assembly>
 		<standalone.classpath>FitNesse/fixtures</standalone.classpath>
 		<port>8082</port>
         <suitePath>FitNesse.SuiteAcceptanceTests</suitePath>
