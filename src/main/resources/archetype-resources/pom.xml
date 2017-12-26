@@ -13,17 +13,17 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<versions.fitnesse>20161106</versions.fitnesse>
+		<versions.fitnesse>20171210</versions.fitnesse>
 		<versions.junit>4.12</versions.junit>
 		<versions.freemarker>2.3.23</versions.freemarker>
-        <versions.maven-classpath-plugin>1.9</versions.maven-classpath-plugin>
+    <versions.maven-classpath-plugin>1.9</versions.maven-classpath-plugin>
 		<versions.maven-compiler-plugin>[3.6,)</versions.maven-compiler-plugin>
 		<versions.fitnesse-git-plugin>1.1.1</versions.fitnesse-git-plugin>
 		<versions.maven.exec>1.6.0</versions.maven.exec>
 		<versions.maven-assembly>3.1.0</versions.maven-assembly>
 		<standalone.classpath>FitNesse/fixtures</standalone.classpath>
 		<port>8082</port>
-        <suitePath>FitNesse.SuiteAcceptanceTests</suitePath>
+    <suitePath>FitNesse.SuiteAcceptanceTests</suitePath>
 	</properties>
 
 	<dependencyManagement>
