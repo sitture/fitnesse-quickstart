@@ -13,7 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<versions.fitnesse>20171210</versions.fitnesse>
+		<versions.fitnesse>20180127</versions.fitnesse>
 		<versions.junit>4.12</versions.junit>
 		<versions.freemarker>2.3.23</versions.freemarker>
     <versions.maven-classpath-plugin>1.9</versions.maven-classpath-plugin>
