@@ -1,9 +1,7 @@
 # fitnesse-quickstart
 An archetype that can be used to generate a Maven based FitNesse project.
 
-|Project|[![Build Status](https://travis-ci.org/sitture/fitnesse-quickstart.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/fitnesse-quickstart) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.sitture/fitnesse-quickstart/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.sitture/fitnesse-quickstart) [![Dependency Status](https://www.versioneye.com/user/projects/58b213a16200aa0044fccec9/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58b213a16200aa0044fccec9) [![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg?maxAge=2592000&style=flat-square)](https://raw.githubusercontent.com/sitture/fitnesse-quickstart/master/LICENSE)|
-|---:|---|
-|__Archetype__|[![Dependency Status](https://www.versioneye.com/user/projects/58b222007b9e150042341647/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58b222007b9e150042341647) |
+[![Build Status](https://travis-ci.org/sitture/fitnesse-quickstart.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/fitnesse-quickstart) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.sitture/fitnesse-quickstart/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.sitture/fitnesse-quickstart) [![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg?maxAge=2592000&style=flat-square)](https://raw.githubusercontent.com/sitture/fitnesse-quickstart/master/LICENSE)
 
 # Usage
 
