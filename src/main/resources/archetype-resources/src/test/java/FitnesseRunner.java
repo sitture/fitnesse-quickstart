@@ -5,14 +5,13 @@ package ${package};
 
 import java.io.File;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.junit.runners.model.InitializationError;
 
 import ${package}.config.Environment;
 
 import fitnesse.ContextConfigurator;
 import fitnesse.FitNesseContext;
-import fitnesse.components.PluginsClassLoader;
 import fitnesse.junit.FitNesseRunner;
 
 /**
@@ -72,7 +71,6 @@ public class FitnesseRunner extends FitNesseRunner {
     protected FitNesseContext createContext(Class<?> suiteClass) throws Exception {
         // disable maven-classpath-plugin, we expect all jars to be loaded as part of this jUnit run
         System.setProperty("fitnesse.wikitext.widgets.MavenClasspathSymbolType.Disable", "true");
-        new PluginsClassLoader(getFitNesseDir(suiteClass)).addPluginsToClassLoader();
         return super.createContext(suiteClass);
     }
 }
