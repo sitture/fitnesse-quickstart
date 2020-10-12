@@ -190,13 +190,6 @@
 											<classifier>jar-with-dependencies</classifier>
 											<overWrite>true</overWrite>
 										</artifactItem>
-										<artifactItem>
-											<groupId>org.fitnesse.plugins</groupId>
-											<artifactId>fitnesse-git-plugin</artifactId>
-											<version>1.1.1</version>
-											<classifier>all</classifier>
-											<overWrite>true</overWrite>
-										</artifactItem>
 									</artifactItems>
 									<outputDirectory>${project.basedir}/FitNesse/plugins</outputDirectory>
 								</configuration>
