@@ -7,6 +7,7 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ## 2.0.1
 ### Fixed
 - Fixes an issue with maven-classpath-plugin
+- Fixes an issue with groupId in generated pom.xml
 
 ## 2.0.0
 ### Updated

@@ -5,6 +5,7 @@ package ${package};
 
 import java.io.File;
 
+import fitnesse.components.PluginsClassLoaderFactory;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.runners.model.InitializationError;
 
@@ -58,7 +59,7 @@ public class FitnesseRunner extends FitNesseRunner {
     }
 
     @Override
-    protected String getOutputDir(Class<?> klass) throws InitializationError {
+    protected String getOutputDir(Class<?> klass) {
         return "target/fitnesse-results";
     }
 
