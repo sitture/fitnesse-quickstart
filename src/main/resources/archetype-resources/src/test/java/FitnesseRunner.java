@@ -71,6 +71,8 @@ public class FitnesseRunner extends FitNesseRunner {
     protected FitNesseContext createContext(Class<?> suiteClass) throws Exception {
         // disable maven-classpath-plugin, we expect all jars to be loaded as part of this jUnit run
         System.setProperty("fitnesse.wikitext.widgets.MavenClasspathSymbolType.Disable", "true");
-        return super.createContext(suiteClass);
+        ClassLoader cl = PluginsClassLoaderFactory.getClassLoader(getFitNesseDir(suiteClass));
+        ContextConfigurator configurator = initContextConfigurator().withClassLoader(cl);
+        return configurator.makeFitNesseContext();
     }
 }

@@ -132,7 +132,7 @@
 							<properties>
 								<property>
 									<name>listener</name>
-									<value>com.sitture.JUnitXMLPerPageListener,com.sitture.ProgressLoggerListener</value>
+									<value>${groupId}.JUnitXMLPerPageListener,${groupId}.ProgressLoggerListener</value>
 								</property>
 							</properties>
 							<!-- Our listener will create XML failsafe should not, or all tests
